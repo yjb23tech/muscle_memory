@@ -11,6 +11,9 @@ const App = () => {
     );
 };
 
+//Target location in my HTML against which I hope to render 
 const container = document.getElementById("root");
+//Where I want to render it too 
 const root = createRoot(container);
+//What I want to render 
 root.render(<App />)
